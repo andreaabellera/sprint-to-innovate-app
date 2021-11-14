@@ -15,7 +15,7 @@ box-sizing: border-box;
 header{
   background-image: url("./logo-white-no-text.svg");
   background-repeat: no-repeat;
-  background-size:11rem;
+  background-size:3rem;
   background-position-x: 1rem;
   background-position-y: 0.5rem;
   padding:20px;
