@@ -13,7 +13,7 @@ box-sizing: border-box;
 }
 
 header{
-  background-image: url("./logo-white.svg");
+  background-image: url("./logo-white-no-text.svg");
   background-repeat: no-repeat;
   background-size:11rem;
   background-position-x: 1rem;
@@ -213,9 +213,7 @@ progress-bar > span:first-child > div:first-child{
   border-radius:1rem;
   background-color: #73BC21;
 }
-progress-bar > span:second-child{
 
-}
 .lesson-card{
   position:relative;
   display:flex;
