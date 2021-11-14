@@ -67,6 +67,7 @@ body{
 
 .nav-tabs .nav-link{
   color:#003B4A;
+  cursor:pointer!important;
 }
 section {
   border-bottom: solid black 1px;
