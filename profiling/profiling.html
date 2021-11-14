@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+<header></header>
+<section page=landing>
+  <progress-bar>0</progress-bar>
+  <h1>Thank you for signing up! Before we get started, let's find out who you are.</h1>
+  <a class="btn-primary btn next">Next</a>
+</section>
+
+<section page=setup02>
+  <progress-bar>10</progress-bar>
+  <h1>Tell us a bit about yourself</h1>
+  <p>Select any that make sense, close enough is good enough!</p>
+  
+  <div class=align-center>
+    <input type="checkbox" name="p1" id="p1" class="btn-check"><label for="p1" class="btn btn-outline-secondary btn-circle">Goal driven</label>
+    <input type="checkbox" name="p2" id="p2" class="btn-check"><label for="p2" class="btn btn-outline-secondary btn-circle">Seek Status</label>
+    <input type="checkbox" name="p3" id="p3" class="btn-check"><label for="p3" class="btn btn-outline-secondary btn-circle">Introverted</label>
+  </div>
+
+  <div class=align-center>
+    <input type="checkbox" name="p4" id="p4" class="btn-check"><label for="p4" class="btn btn-outline-secondary btn-circle">Patient</label>
+    <input type="checkbox" name="p5" id="p5" class="btn-check"><label for="p5" class="btn btn-outline-secondary btn-circle">Controlled</label>
+    <input type="checkbox" name="p6" id="p6" class="btn-check"><label for="p6" class="btn btn-outline-secondary btn-circle">Results-focused</label>
+  </div>
+
+  <div class=align-center>
+    <input type="checkbox" name="p7" id="p7" class="btn-check"><label for="p7" class="btn btn-outline-secondary btn-circle">Outgoing</label>
+    <input type="checkbox" name="p8" id="p8" class="btn-check"><label for="p8" class="btn btn-outline-secondary btn-circle">Perfectionist</label>
+    <input type="checkbox" name="p9" id="p9" class="btn-check"><label for="p9" class="btn btn-outline-secondary btn-circle">Humble</label>
+  </div>
+
+  <div class=align-center>
+    <input type="checkbox" name="p10" id="p10" class="btn-check"><label for="p10" class="btn btn-outline-secondary btn-circle">Cautious</label>
+    <input type="checkbox" name="p11" id="p11" class="btn-check"><label for="p11" class="btn btn-outline-secondary btn-circle">Competitive</label>
+    <input type="checkbox" name="p12" id="p12" class="btn-check"><label for="p12" class="btn btn-outline-secondary btn-circle">Like Stability</label>
+  </div>
+
+  <div class=align-center>
+    <input type="checkbox" name="p13" id="p13" class="btn-check"><label for="p13" class="btn btn-outline-secondary btn-circle">Social</label>
+    <input type="checkbox" name="p14" id="p14" class="btn-check"><label for="p14" class="btn btn-outline-secondary btn-circle">Like Group Activities</label>
+    <input type="checkbox" name="p15" id="p15" class="btn-check"><label for="p15" class="btn btn-outline-secondary btn-circle">Like Risks</label>
+  </div>
+
+  <div class=align-center>
+    <input type="checkbox" name="p16" id="p16" class="btn-check"><label for="p16" class="btn btn-outline-secondary btn-circle">Risk-Taker</label>
+    <input type="checkbox" name="p17" id="p17" class="btn-check"><label for="p17" class="btn btn-outline-secondary btn-circle">Competitive</label>
+    <input type="checkbox" name="p18" id="p18" class="btn-check"><label for="p18" class="btn btn-outline-secondary btn-circle">Enthusiastic</label>
+  </div>
+
+  <a class="btn-primary btn next mt-5">Next</a>
+
+</section>
+
+<section page=setup04>
+  <progress-bar>10</progress-bar>
+  <h1>Do you own a Car?</h1>
+  <div class=align-center>
+    <input name=car-owner id=car-owner1 type=radio class=btn-check />
+    <label for=car-owner1 class="btn btn-square btn-outline-primary next">Yes</label>
+
+    <input name=car-owner id=car-owner2 type=radio class=btn-check />
+    <label for=car-owner2 class="btn btn-square btn-outline-primary next">No</label>
+  </div>
+</section>
+
+<section page=setup05>
+  <progress-bar>15</progress-bar>
+  <h1>Do you have outstanding debts?</h1>
+  <div class=align-center>
+    <input name=has-debt id=has-debt1 type=radio class=btn-check />
+    <label for=has-debt1 class="btn btn-square btn-outline-primary next">Yes</label>
+
+    <input name=has-debt id=has-debt2 type=radio class=btn-check />
+    <label for=has-debt2 class="btn btn-square btn-outline-primary next">No</label>
+  </div>
+</section>
+
+<section page=setup06>
+  <progress-bar>20</progress-bar>
+  <h1>Do you own or plan to have a small shop/business in 2-3 years?</h1>
+  <div class=align-center>
+    <input name=wants-business id=wants-business1 type=radio class=btn-check />
+    <label for=wants-business1 class="btn btn-square btn-outline-primary next">Yes</label>
+
+    <input name=wants-business id=wants-business2 type=radio class=btn-check />
+    <label for=wants-business2 class="btn btn-square btn-outline-primary next">No</label>
+  </div>
+</section>
+
+<section page=setup06>
+  <progress-bar>25</progress-bar>
+  <h1>Do you have an emergency fund that can cover 3-6 months of expenses?</h1>
+  <div class=align-center>
+    <input name=has-emergency-fund id=has-emergency-fund1 type=radio class=btn-check />
+    <label for=has-emergency-fund1 class="btn btn-square btn-outline-primary double-next">Yes</label>
+
+    <input name=has-emergency-fund id=has-emergency-fund2 type=radio class=btn-check />
+    <label for=has-emergency-fund2 class="btn btn-square btn-outline-primary double-next">No</label>
+  </div>
+  <div class="align-center">
+    <a class="info btn btn-square btn-outline-primary next">I don't know, tell me more</a>
+  </div>
+</section>
+
+<section page=setup06-info>
+
+  <div class="card-stretch">
+    <div class="card shadow">
+      <h1>Emergency fund</h1>
+      <p>This is where you can expand on the importance of having an emergency fund and what it is..</p>
+    </div>
+  </div>
+  <a class="btn btn-primary prev">Ok</a>
+</section>
+
+
+
+<section page=2>
+  <progress-bar>40</progress-bar>
+  <h1>What is your marital status?</h1>
+  
+  <input type="radio" name=marital id="marital1" class="btn-check">
+  <label for=marital1 class="btn-outline-primary btn" target="employment">Single</label>
+
+  <input type="radio" name=marital id="marital2" class="btn-check">
+  <label for=marital2 class="btn-outline-primary btn" target="has-children">Married</label>
+
+  <input type="radio" name=marital id="marital3" class="btn-check">
+  <label for=marital3 class="btn-outline-primary btn" target="has-children">Partner</label>
+
+  <input type="radio" name=marital id="marital4" class="btn-check">
+  <label for=marital4 class="btn-outline-primary btn" target="has-children">Prefer not to say</label>
+</section>
+
+<section page="has-children">
+  <progress-bar>50</progress-bar>
+  <h1>Do you have children?</h1>
+  <div class=align-center>
+    <input name=has-children id=has-children1 type=radio class=btn-check />
+    <label for=has-children1 class="btn btn-square btn-outline-primary next">Yes</label>
+
+    <input name=has-children id=has-children2 type=radio class=btn-check />
+    <label for=has-children2 class="btn btn-square btn-outline-primary next">No</label>
+  </div>
+</section>
+
+<section page="employment">
+  <progress-bar>60</progress-bar>
+  <h1>What is your current employment status?</h1>
+
+  <input type="checkbox" name=employment id="employment1" class="btn-check">
+  <label for=employment1 class="btn-outline-primary btn">Employed</label>
+  <input type="checkbox" name=employment id="employment2" class="btn-check">
+  <label for=employment2 class="btn-outline-primary btn">Self-employed</label>
+  <input type="checkbox" name=employment id="employment3" class="btn-check">
+  <label for=employment3 class="btn-outline-primary btn">Business owner</label>
+  <input type="checkbox" name=employment id="employment4" class="btn-check">
+  <label for=employment4 class="btn-outline-primary btn">Freelance / Gig</label>
+  <input type="checkbox" name=employment id="employment5" class="btn-check">
+  <label for=employment5 class="btn-outline-primary btn">Student</label>
+  <input type="checkbox" name=employment id="employment6" class="btn-check">
+  <label for=employment6 class="btn-outline-primary btn" target=events>Unemployed</label>
+  <input type="checkbox" name=employment id="employment7" class="btn-check">
+  <label for=employment7 class="btn-outline-primary btn">Other</label>
+  
+  <a class="btn-primary btn next mt-5">Next</a>
+</section>
+
+<section page=setup05>
+  <progress-bar>70</progress-bar>
+  <h1>Do you currently have any investment accounts through employment?</h1>
+  <div class=align-center>
+    <input name=employment-benefit id=employment-benefit1 type=radio class=btn-check />
+    <label for=employment-benefit1 class="btn btn-square btn-outline-primary double-next">Yes</label>
+
+    <input name=employment-benefit id=employment-benefit2 type=radio class=btn-check />
+    <label for=employment-benefit2 class="btn btn-square btn-outline-primary double-next">No</label>
+  </div>
+</section>
+
+<section page="events">
+  <progress-bar>80</progress-bar>
+  <h1>Do you have any of these life changing events or significant expenses potentially coming up in the next 2-3 years?</h1>
+
+  <input type="checkbox" name=event id="event1" class="btn-check">
+  <label for=event1 class="btn-outline-primary btn">Graduating University</label>
+  <input type="checkbox" name=event id="event2" class="btn-check">
+  <label for=event2 class="btn-outline-primary btn">Seeking Advanced Degree</label>
+  <input type="checkbox" name=event id="event3" class="btn-check">
+  <label for=event3 class="btn-outline-primary btn">Pursue Self-Directed Education</label>
+  <input type="checkbox" name=event id="event0" class="btn-check">
+  <label for=event0 class="btn-outline-primary btn">Starting a New Business</label>
+  <input type="checkbox" name=event id="event4" class="btn-check">
+  <label for=event4 class="btn-outline-primary btn">Getting Married</label>
+  <input type="checkbox" name=event id="event5" class="btn-check">
+  <label for=event5 class="btn-outline-primary btn">New Baby</label>
+  <input type="checkbox" name=event id="event6" class="btn-check">
+  <label for=event6 class="btn-outline-primary btn" target=events>Change in Work Status</label>
+  <input type="checkbox" name=event id="event7" class="btn-check">
+  <label for=event7 class="btn-outline-primary btn">New Home</label>
+  <input type="checkbox" name=event id="event8" class="btn-check">
+  <label for=event8 class="btn-outline-primary btn">Home Renovation</label>
+  <input type="checkbox" name=event id="event9" class="btn-check">
+  <label for=event9 class="btn-outline-primary btn">New Car Purchase</label>
+  
+  <a class="btn-primary btn next mt-5">Next</a>
+</section>
+
+<section page=setup06>
+  <progress-bar>90</progress-bar>
+  <h1>Do you understand what net worth is and how it is calculated?</h1>
+  <div class=align-center>
+    <input name=knows-net-worth id=knows-net-worth1 type=radio class=btn-check />
+    <label for=car-owner1 class="btn btn-square btn-outline-primary double-next">Yes</label>
+
+    <a class="info btn btn-square btn-outline-primary next">I don't know, tell me more</a>
+  </div>
+</section>
+
+<section page=setup06-info>
+  <div class="card-stretch shadow">
+    <div class="card">
+      <h1>Net Worth</h1>
+      <p>This is where you can expand on what net worth is and how it is calculated.</p>
+    </div>
+  </div>
+  <a class="btn btn-primary prev">Ok</a>
+</section>
+
+<section page=setup-complete>
+  <progress-bar>100</progress-bar>
+  <confetti></confetti>
+  <img class="acu-badge flip" src="../icons/badge-intro.svg" />
+  <h1>Congratulations! You earned the Intro Badge!</h1>
+  <a class="btn btn-primary" href="../dashboard.html">Continue to Dashboard</a>
+</section>
+
+<script src=../navigation.js></script>
+<script></script>
+</body>
+</html>

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+<header></header>
+
+<ul class="nav nav-tabs">
+  <li class="nav-item w-50"><a class="nav-link active" target="landing">Account</a></li>
+  <li class="nav-item w-50"><a class="nav-link" target="tools">Tools</a></li>
+</ul>
+
+<section page="landing">
+  <header-message>Account</header-message>
+  <div class="card acu-card">
+    <h2>Account (2)</h2>
+    <hr>
+    <h3>Green Chequing (8232)</h3>
+    <div>$1,436.34</div>
+    <hr>
+    <h3>Student Plan (8232)</h3>
+    <div>$5,023.32</div>
+  </div>
+
+  <div class="card acu-card">
+    <h2>Credit cards (1)</h2>
+    <hr>
+    <h3>Credit Card (9332)</h3>
+    <div>$384.25</div>
+  </div>
+
+  <div class="card acu-card">
+    <h2>Investment (1)</h2>
+    <hr>
+    <h3>TFSA (2534)</h3>
+    <div>$4123.00</div>
+  </div>
+
+  <div class="card acu-card">
+    	<h2>My Balances</h2>
+      <div class="mb-3">
+        <span class="float-start w-50">
+          <h3>I have:</h3>
+          <div>$90,235.45</div>
+        </span>
+
+        <span class="float-end w-50">
+          <h3>I owe:</h3>
+          <div>$9,235.45</div>
+        </span>
+      </div>
+
+      <div>
+        <span class="float-start w-50">
+          <h3>My Goal this month:</h3>
+          <div>$100,000.00</div>
+        </span>
+
+        <span class="float-end w-50">
+          <h3>My savings this month:</h3>
+          <div>$5,000.00</div>
+        </span>
+      </div>
+        
+      </div>
+  </div>
+</section>
+<section page="unimplemented">
+  <h1>This page has intentionally been left out of the prototype</h1>  
+</section>
+
+<section page="tools">
+  <header-message>Tools</header-message>
+  <h2>Access Academy</h2>
+  <div class="card acu-card cursor-pointer" target=entrepreneur-module>
+    <h3>Access Academy</h3>
+    <hr>
+    <div>Current Lesson: <strong>What is TFSA</strong></div>
+
+    <progress-bar>85</progress-bar>
+  </div>
+
+  <h2>Tools</h2>
+
+  <div class="d-flex flex-wrap">
+    <a class="lesson-card" target=education>Education</a>
+    <a class="lesson-card" target="todo">To-do list<span class="todo-badge">2</span></a>
+    <a class="lesson-card" target="service">Service</a>
+    <a class="lesson-card" target=business-tool>Start-up Tools</a>
+    <a class="lesson-card" target="spendings">Spendings</a>
+    <a class="lesson-card" target="investment">Investment</a>
+  </div>
+
+</section>
+
+<section page="entrepreneur-module">
+  <header-message>Access Academy</header-message>
+  
+  <div class="card acu-card cursor-pointer" target=l5>
+    <h3>Access Acedemy</h3>
+    <hr>
+    <div>Current Lesson: <strong>5. The Power of Investing</strong></div>
+    <progress-bar>85</progress-bar>
+  </div>
+
+  <div class="list-group">
+    <a class="list-group-item" target=l1><i class="fa fa-check-circle"></i>1. Introduction</a>
+    <a class="list-group-item" target=l2><i class="fa fa-check-circle"></i>2. Budgeting and Saving</a>
+    <a class="list-group-item" target=l3><i class="fa fa-check-circle"></i>3. Debt, Credit Scores and Emergency Funds</a>
+    <a class="list-group-item" target=l4><i class="fa fa-check-circle"></i>4. Line of Credit</a>
+    <a class="list-group-item" target=l5><i class="fa fa-circle"></i>5. The Power of Investing</a>
+    <a class="list-group-item" target=l6><i class="fa fa-circle"></i>6. Investment Lesson 2</a>
+    <a class="list-group-item" target=l7><i class="fa fa-circle"></i>7. What is a Credit Union?</a>
+  </div>
+</section>
+
+<section page="l1">
+  <header-message>Access Academy</header-message>
+  <div class="card">
+    <h2>1. Introduction</h2>
+    <p>Hey there!</p>
+    <p>Our modules are designed to provide you with basic financial knowledge without the unnecessary technical jargon and thanks to reinforcement learning and taking small steps every now and then, you can become very knowledgeable with very little effort.</p>
+    <p>You should be proud of taking your first step to improving your finances and we are sure you are excited to begin! Taking a few little steps at a time is important, and we will help you do just that.</p>
+  </div>
+  <div class="btn btn-primary next">Next</div>
+</section>
+<section page="l2">
+  <header-message>Access Academy</header-message>
+  <div class="card">
+    <h2>2. Budgeting and Saving</h2>
+    <p>The first step to achieve anything in life is to identify the problem, and then to brainstorm solutions.</p> 
+
+    <p>Budgeting and tracking your expenses would help you to identify where you might be overspending, and hence where you could start saving some money.</p>
+    <p>We understand budgeting can sound daunting, but using our integrated TOOL, it will be a breeze!</p>
+    <p>You should start off by identifying the necessary costs which could include things like:</p>
+    <ul>
+      <li>Rent/mortgage, utilities</li>
+      <li>Groceries</li>
+      <li>Utilities</li>
+      <li>Personal hygiene and health</li>
+      <li>Income earning expenses (such as transport)</li>
+      <li>Taxes</li>
+      <li>Minimum payment on all debts</li>
+    </ul>
+  </div>
+  <div class="btn btn-primary next">Next</div>
+</section>
+<section page="l3">
+  <header-message>Access Academy</header-message>
+  <div class="card">
+    <h2>3. Debt, Credit Scores and Emergency Funds</h2>
+    <p>Debt generally refers to the amount that one party might owe to another, whether it is between people or corporations. Debt always comes along with an interest rate, which means you need to pay back the original amount + the interest that has accumulated. Common forms of debt include car loans, mortgages and credit cards.</p>
+    <p>(PSSST! You can use our TOOL to set a savings goal to pay off your debts!)</p>
+    <p>Canadian corporations measure your general ability to pay back debt using credit scores, and the corporations responsible for this are mainly Equifax and TransUnion. Credit scores are great because they can help businesses to determine the best candidates to give loans to! But it also means you need to maintain your credit history by making timely payments</p>
+    <p>This brings us to our last topic for this lesson, Emergency Funds. Life is very unpredictable and it is very important to maintain some savings for those rough times that might come by. It is generally recommended to have 3-6 months of monthly expenses in your emergency fund. It can really help you get out of a tough time, so it's good to have. You can use the TOOL to save up for it effectively!</p>
+    <p>That's all for this lesson, congratulations on making it so far! You are taking great steps towards better financial decisions and with our help you will be there in no time!</p>
+  </div>
+  <div class="btn btn-primary next">Next</div>
+</section>
+
+<!--Line of Credit -->
+<section page="l4">
+  <header-message>Access Academy</header-message>
+  <div class="card">
+    <h2>4. Line of Credit</h2>
+    <p> A Line of Credit (LOC) is basically a fixed limit of the amount of money you can borrow from an institution when you require it. Everything ranging from a credit card to mortgages to business loans can be classified as a line of credit.</p>
+    <p>As discussed in the previous lesson, credit scores are important as they help an institution determine your ability to repay borrowed money, and consider it before extending you a line of credit. That is why it is important to maintain a good credit score if you plan on borrowing money for a big purchase or starting a business some time in the future</p>
+  </div>
+  <div class="btn btn-primary next">Next</div>
+</section>
+<section page="l5">
+  <header-message>Access Academy</header-message>
+  <div class="card">
+    <h2>5. The Power of Investing</h2>
+    <p>Investing, in simple words, is when you allocate some of your financial resources today with the goal of eventually generating a profit or income sometime in the future. Simple right?</p>
+    <p>Buying a house at $200,000 today and selling it for $300,000 in a few years is an investment, and so is buying some stock in a company which goes from being worth $1000 to $1500 in a few months.</p>
+    <p>The field of investing is very wide and diverse, and quite frankly can be very confusing. That’s ok, access credit union has your back. Our educational modules will further help you understand these concepts, and you could also try our <b>STOCK SIMULATOR TOOL</b> to help get an idea of how the financial markets work.</p>
+    <p>The following list gives you an idea of all the potential investment methods: </p>
+    <ul>
+      <li>Bonds</li>
+      <li>Stocks</li>
+      <li>Real Estate</li>
+      <li>Mutual Funds</li>
+      <li>ETFs</li>
+      <li>Options</li>
+      <li>Commodities</li>
+      <li>Cryptocurrencies</li>
+      <li>Investment Trust</li>
+  </div>
+  <div class="btn btn-primary next">Next</div> 
+</section>
+
+<!--Investment Lesson -->
+<section page="l6">
+  <header-message>Access Academy</header-message>
+  <div class="card">
+    <h2>6. Investment Lesson 2</h2>
+    <p>At Access credit union, we provide multiple investment pathways for you</p>
+    <ul>
+      <li>Term Deposits</li>
+      <li>Registered Retirement Savings Plan (RRSP)</li>
+      <li>Tax Free Savings Account (TFSA)</li>
+      <li>Registered Retirement Income Fund (RRIF)</li>
+      <li>Registered Education Savings Plan (RESP)</li>
+      <li>Registered Education Savings Plan (RESP)</li>
+      <li>Mutual Funds</li>
+    </ul>
+    <p>You can contact us at anytime to provide you with more information on each of 
+      these options, or check our website here at <a href="https://www.accesscu.ca/en/personal/investing">investing</a> </p>
+  </div>
+  <div class="btn btn-primary next">Next</div>
+</section>
+
+
+<section page="l7">
+  <header-message>Access Academy</header-message>
+  <div class="card">
+    <h2>7. What is a Credit Union?</h2>
+    <p>A credit union is similar to a bank in the sense that you can deposit and withdraw money using chequing and savings accounts, access a diverse range of investment options and apply for loans and mortgages.</p>
+    <p>There is one huge difference though, at credit unions you are not just a customer but a shareholder! Credit unions are cooperatives with the primary goal of serving their customers as members, thus ensuring a better overall customer experience.</p>
+    <p>Just like banks, credit unions are regulated and deposits are insured.</p>
+  </div>
+  <div class="btn btn-primary next">Next</div>
+</section>
+
+<section page="badge-budget">
+  <header-message>Access Academy</header-message>
+  <progress-bar>100</progress-bar>
+  <confetti></confetti>
+  <img class="acu-badge flip" src="/icons/badge-budget.svg">
+  <h1>Congratulations! You earned the Budget Badge!</h1>
+  <a class="btn btn-primary" target=tools>Back to tools</a>
+</section>
+
+<!-- Investing for a House -->
+<section page="l8">
+  <header-message>Investing for a House</header-message>
+  <div class="card">
+    <h2>Buying New House</h2>
+    <p>Buying a house can both be exciting and scary at the same time. We have put in a few questions you should ask to guide yourself through this process:</p>
+    <h6>Can you afford a Down Payment? </h6>
+    <p>Down Payments are a fixed percentage of the cost of the home you want to buy which has to be paid up front. Your credit score and your history with the bank shall be considered in determining the amount of downpayment. Down Payments are at least 5%, and can turn into large amounts.</p>
+
+    <h6>Do you have a steady cash in flow?</h6>
+    <p>Mortgages are long term commitments and you want to make sure you are in a position of financial security before you decide to look for houses. It is recommended to spend no more than 30% of your income on housing costs including rent, insurance etc.</p>
+
+    <h6>Opportunity Costs ?</h6>
+    <p>Buying a house at some point is definitely a life goal for most people, but you need to consider if you might be letting go of some better opportunities by spending that money on purchasing a house</p>
+    <p>For example, you might be able to live with your parents for a few years paying no or very little rent, and although you could buy a house, the opportunity cost would be the potential of saving all that money and possibly investing it into something else.</p>
+
+    <h6>What is the size of the house?</h6>
+    <p>How large is your family, how many dependents do you have to take care of etc. are things you need to consider. All of us want to live in big mansions with 10 bedrooms, but is it really a wise financial choice?</p>
+    <p>These are just some of the questions to ask yourself, and it is important to think things through carefully and understand all the terms of the mortgage agreement before buying a house.</p>
+  </div>
+  <div class="btn btn-primary next">Next</div>
+</section>
+
+<section page="badge-line-of-credit">
+  <header-message>Access Academy</header-message>
+  <progress-bar>100</progress-bar>
+  <confetti></confetti>
+  <img class="acu-badge flip" src="/icons/badge-line-of-credit.svg">
+  <h1>Congratulations! You earned the House Investing Badge!</h1>
+  <a class="btn btn-primary" target=tools>Back to tools</a>
+</section>
+
+<!--   Start a new buisness Module -->
+<section page="l9">
+  <header-message>Start a New Business Module</header-message>
+  <div class="card">
+  <h2>Starting a Business</h2>
+  <p>Starting a business is a great choice and offers a high potential for rewards. But it can be quite overwhelming and we want to provide a starting point for you. You need to test the viability of your business idea before you actually jump in.</p>
+  
+  <h6>Demand and Supply</h6>
+  <p>Are there enough customers to buy your product, is it something that they are looking for? That's the demand. Is there a lack of similar businesses trying to fulfill the demand of customers, leading to the excess demand in the first place? That is Supply, or more like the lack of Supply. 
+    In the best case scenario, <b>Demand > Supply</b> </p>
+    
+  <h6>What Form of Buisness</h6>
+  <p>There are three main types of business organizations in Canada</p>
+    <ol>
+      <li>Sole Proprietorship : Very simple in structure and can be set up within one day!</li>
+      <li>Partnership : A more complex form of a sole proprietorship and includes more than one owner</li>
+      <li>Corporation : The most sophisticated type of business organization with multiple owners and separation of ownership and business liability. Multiple owners with shares/stock</li>
+    </ol>
+    
+    <h6>Capital</h6>
+    <p>Starting a business requires funds, and more often than not new entrepreneurs would require a loan initially. It is important to know that credit unions and banks can offer loans to you. At Access Credit Union, we highly value our customers particularly small business owners and you can check our site and contact us for more information! Besides loans, you could also take advantage of our business accounts</p>
+  </div>  
+  <div class="btn btn-primary next">Next</div>
+</section>
+
+<section page="badge-invest">
+  <header-message>Access Academy</header-message>
+  <progress-bar>100</progress-bar>
+  <confetti></confetti>
+  <img class="acu-badge flip" src="/icons/badge-invest.svg">
+  <h1>Congratulations! You earned the Investor Badge!</h1>
+  <a class="btn btn-primary" target=tools>Back to tools</a>
+</section>
+
+<section page="todo">
+  <img src="/mockups/todo.svg">
+  <a target="tools" class="btn btn-primary mb-5">Back</a>
+</section>
+
+<section page="spendings">
+  <img src="/mockups/spendings.svg">
+  <a target="tools" class="btn btn-primary mb-5">Back</a>
+</section>
+
+<section page="business-tool">
+  <img src="/mockups/business-tool.svg">
+  <a target="tools" class="btn btn-primary mb-5">Back</a>
+</section>
+
+<section page="education">
+  <div class="card acu-card cursor-pointer" target=l1>
+    <h3>Access Acedemy</h3>
+    <hr>
+    <div>Current Lesson: <strong>5. The Power of Investing</strong></div>
+    <progress-bar>85</progress-bar>
+  </div>
+
+  <div class="card acu-card cursor-pointer" target=l8>
+    <h3>Investing in a house</h3>
+    <hr>
+    <div>Not started yet</div>
+    <progress-bar>0</progress-bar>
+  </div>
+
+  <div class="card acu-card cursor-pointer" target=l9>
+    <h3>Investing in a house</h3>
+    <hr>
+    <div>Not started yet</div>
+    <progress-bar>0</progress-bar>
+  </div>
+
+  <a target="tools" class="btn btn-primary mb-5">Back</a>
+
+</section>
+
+<section page="service">
+  <h2>Services</h2>
+  <div class="d-flex flex-wrap">
+    <a class="lesson-card" target=unimplemented>Chequing</a>
+    <a class="lesson-card" target="unimplemented">Savings</a>
+    <a class="lesson-card" target=unimplemented>TFSA</a>
+    <a class="lesson-card" target="unimplemented">Mortgage</a>
+    <a class="lesson-card" target="unimplemented">RRSP</a>
+    <a class="lesson-card" target=unimplemented>Investment</a>
+  </div>
+
+  <a target="tools" class="btn btn-primary mb-5">Back</a>
+</section>
+
+<section page="investment">
+  <h2>This would be an interface that links QTrade to the client's ACU account</h2>
+  <img src="mockups/qtrade.jfif" >
+  <a target="tools" class="btn btn-primary mb-5">Back</a>
+</section>
+
+<footer class="fixed-bottom">
+  <div class="footer-nav">
+    <div class="align-center-stretch">
+      <a id=home class="btn btn-primary w-25 bottom-nav active" target="landing">
+        <svg class=nav-icon width="113" height="96" viewBox="0 0 113 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M45.2 96V62.1176H67.8V96H96.05V50.8235H113L56.5 0L0 50.8235H16.95V96H45.2Z" fill="white"/>
+          </svg>
+        <div>Home</div>          
+        </a>
+      <a id=transfer class="btn btn-primary w-25 bottom-nav" target="unimplemented">
+        <svg class=nav-icon width="107" height="101" viewBox="0 0 107 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M101.368 84.1667V89.7778C101.368 95.95 96.3 101 90.1053 101H11.2632C5.0121 101 0 95.95 0 89.7778V11.2222C0 5.05 5.0121 0 11.2632 0H90.1053C96.3 0 101.368 5.05 101.368 11.2222V16.8333H50.6842C44.4332 16.8333 39.4211 21.8833 39.4211 28.0556V72.9444C39.4211 79.1167 44.4332 84.1667 50.6842 84.1667H101.368ZM50.6842 72.9444H107V28.0556H50.6842V72.9444ZM73.2105 58.9167C68.5363 58.9167 64.7632 55.1572 64.7632 50.5C64.7632 45.8428 68.5363 42.0833 73.2105 42.0833C77.8847 42.0833 81.6579 45.8428 81.6579 50.5C81.6579 55.1572 77.8847 58.9167 73.2105 58.9167Z" fill="white"/>
+          </svg>
+          
+        <div>Transfer</div></a>
+      <a id=bills class="btn btn-primary w-25 bottom-nav" target="unimplemented">
+        <svg class=nav-icon width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M48 0C21.504 0 0 21.504 0 48C0 74.496 21.504 96 48 96C74.496 96 96 74.496 96 48C96 21.504 74.496 0 48 0ZM52.224 75.648V81.6H43.824V75.408C40.272 74.544 32.352 71.712 29.328 61.2L37.248 57.984C37.536 59.04 40.032 68.016 48.768 68.016C53.232 68.016 58.272 65.712 58.272 60.288C58.272 55.68 54.912 53.28 47.328 50.544C42.048 48.672 31.248 45.6 31.248 34.656C31.248 34.176 31.296 23.136 43.824 20.448V14.4H52.224V20.352C61.056 21.888 64.272 28.944 64.992 31.056L57.408 34.272C56.88 32.592 54.576 27.84 48.288 27.84C44.928 27.84 39.6 29.616 39.6 34.512C39.6 39.072 43.728 40.8 52.272 43.632C63.792 47.616 66.72 53.472 66.72 60.192C66.72 72.816 54.72 75.216 52.224 75.648Z" fill="white"/>
+          </svg>
+          
+        <div>Bills</div></a>
+      <a id=invest class="btn btn-primary w-25 bottom-nav" target="unimplemented">
+        <svg class=nav-icon width="168" height="101" viewBox="0 0 168 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M117.6 0L136.836 19.2742L95.844 60.3475L62.244 26.6808L0 89.1325L11.844 101L62.244 50.5L95.844 84.1667L148.764 31.2258L168 50.5V0H117.6Z" fill="white"/>
+          </svg>          
+        <div>Invest</div></a>
+    </div>
+  </div>
+</footer>
+
+
+<script src="navigation.js"></script>
+<script src="dashboard.js"></script>
+</body>
